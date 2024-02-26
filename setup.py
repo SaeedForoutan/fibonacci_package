@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='fibonacci_package',
-    version='0.3.0',
+    version='0.3.1',
     packages=['fibonacci_package'],
     install_requires=[],
     author='Saeed Foroutan',
