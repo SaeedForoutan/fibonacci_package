@@ -13,8 +13,9 @@ pip install fibonacci_package
 ```
 ## Example
 
-Once installed, you can use the package in your Python scripts. Here's a simple example:
+Once installed, you can use the package in your Python scripts. Here are two different ways to calculate the Fibonacci sequence:
 
+### Recursive Algorithm:
 ```python
 from fibonacci_package.fibonacci import calculate_fibonacci
 
@@ -27,7 +28,17 @@ result = calculate_fibonacci(n)
 # Print the result
 print(f"The first {n} terms of the Fibonacci sequence are: {result}")
 ```
-Output:
+
+### Memoizing the Recursive Algorithm:
+
+```python
+from fibonacci_package.fibonacci import fibonacci_with_memoization
+
+n = int(input("Enter the number of terms you want in the Fibonacci sequence: "))
+result = fibonacci_with_memoization(n)
+print(f"The first {n} terms of the Fibonacci sequence (memoized) are: {result}")
+```
+### Output for two cases:
 ```bash
 python your_script.py
 Enter the number of terms you want in the Fibonacci sequence: 10
