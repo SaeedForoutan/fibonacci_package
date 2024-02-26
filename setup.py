@@ -10,5 +10,5 @@ setup(
     install_requires=[],
     author='Saeed Foroutan',
     author_email='foroutansaeed@live.com',
-    url='https://github.com/SaeedForoutan/fibonacci_package.git',
+    url='https://github.com/SaeedForoutan/fibonacci_package',
 )
