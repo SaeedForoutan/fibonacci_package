@@ -35,8 +35,10 @@ print(f"The first {n} terms of the Fibonacci sequence are: {result}")
 from fibonacci_package.fibonacci import fibonacci_with_memoization
 
 n = int(input("Enter the number of terms you want in the Fibonacci sequence: "))
-result = fibonacci_with_memoization(n)
-print(f"The first {n} terms of the Fibonacci sequence (memoized) are: {result}")
+
+fibonacci_sequence = [fibonacci_with_memoization(i) for i in range(n)]
+
+print(f"The first {n} terms of the Fibonacci sequence (memoized) are: {fibonacci_sequence}")
 ```
 ### Output for two cases:
 ```bash
