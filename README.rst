@@ -62,5 +62,5 @@ Output for two cases
     The first 10 terms of the Fibonacci sequence are: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 
-.. |CVXportfolio on PyPI| image:: https://img.shields.io/pypi/v/fibonacci-package.svg
+.. |fibonacci-package on PyPI| image:: https://img.shields.io/pypi/v/fibonacci-package.svg
    :target: https://pypi.org/project/fibonacci-package/
