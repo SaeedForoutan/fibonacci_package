@@ -61,3 +61,6 @@ Output for two cases
     Enter the number of terms you want in the Fibonacci sequence: 10
     The first 10 terms of the Fibonacci sequence are: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
+
+.. |CVXportfolio on PyPI| image:: https://img.shields.io/pypi/v/fibonacci-package.svg
+   :target: https://pypi.org/project/fibonacci-package/
