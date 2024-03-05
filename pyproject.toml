@@ -1,14 +1,18 @@
-[tool.poetry]
+[project]
 name = "fibonacci_package"
-version = "0.3.0"
-description = ""
-authors = ["saeedforoutan <foroutansaeed@gmail.com>"]
-readme = "README.md"
+version = "0.3.1"
+description = "A simple package for calculating Fibonacci series"
+readme = "README.rst"
+authors = [{name = "Saeed Foroutan", email = "foroutansaeed@live.com"}]
+license = {text = "MIT License"}
+dependencies = []
 
-[tool.poetry.dependencies]
-python = "^3.10"
-
+[project.urls]
+Homepage = "https://github.com/saeedforoutan/fibonacci_package/"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["fibonacci_package"]

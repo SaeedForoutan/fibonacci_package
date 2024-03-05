@@ -1,5 +1,5 @@
 Fibonacci Package
-================
+=================
 
 |fibonacci-package on PyPI|
 
