@@ -7,7 +7,9 @@ def calculate_fibonacci(n):
     return fib_sequence
 
 # Memoized version of the recursive Fibonacci algorithm
-def fibonacci_with_memoization(n, cach={0: 0, 1: 1}):
+def fibonacci_with_memoization(n, cach=None):
+    if cach is None:
+        cach = {0: 0, 1: 1}
     if n in cach:
         return cach[n]
     cache[n] = fibonacci_with_memoization(n - 1, cach) + fibonacci_with_memoization(n - 2, cach)
